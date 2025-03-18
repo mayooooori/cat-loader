@@ -1,0 +1,49 @@
+{
+  "name": "uia-cat-loader",
+  "version": "1.0.0",
+  "description": "A cute cat popup loader for React/Next.js apps!",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format esm --target es2020",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "next": ">=12.0.0",
+    "react": ">=17.0.0"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayooooori/cat-loader.git"
+  },
+  "keywords": [
+    "loader",
+    "react",
+    "nextjs",
+    "animation",
+    "spinning-cat",
+    "cat"
+  ],
+  "author": "Mayuri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayooooori/cat-loader/issues"
+  },
+  "homepage": "https://github.com/mayooooori/cat-loader#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
