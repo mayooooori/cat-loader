@@ -1,6 +1,6 @@
 {
-  "name": "uia-cat-loader",
-  "version": "1.0.0",
+  "name": "cat-spin-loader",
+  "version": "1.0.0-alpha.0",
   "description": "A cute cat popup loader for React/Next.js apps!",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -20,7 +20,8 @@
   },
   "files": [
     "dist",
-    "src"
+    "src",
+    "README.md"
   ],
   "repository": {
     "type": "git",

@@ -7,12 +7,12 @@ A fun spinning cat loader for your React/Next.js projects! 🎉
 ## 🚀 Installation
 
 ```sh
-npm install uia-cat-loader
+npm install cat-spin-loader
 ```
 
 ## Usage
 
-import { Loader } from "uia-cat-loader";
+import { Loader } from "cat-spin-loader";
 
 function App() {
 return <Loader duration={6000} width={200} height={200} />;
